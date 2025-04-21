@@ -71,7 +71,7 @@ const Footer = () => {
           rel="noopener noreferrer"
           className="text-blue-400 hover:text-white font-semibold transition"
         >
-          Your Name
+          Dhanussh Shrekar
         </a>{' '}
         —
         <a
