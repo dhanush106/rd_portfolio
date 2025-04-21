@@ -5,7 +5,7 @@ import HeroBg from "../assets/hero.jpg"
 import TrustedSection from '../components/TrustedSection'
 import WhatWeDo from '../components/WhatWeDo'
 import WhyChooseUs from '../components/WhyChooseUs'
-
+import {Link } from 'react-router-dom'
 const Home = () => {
   const headingVariants = {
     hidden: { opacity: 0, x: -40 },
@@ -81,10 +81,14 @@ const Home = () => {
           </div>
           <div className="space-y-4">
             <button className="flex gap-3 px-6 py-3 rounded-md bg-gray-700 text-white hover:bg-blue-500 transition duration-300 cursor-pointer">
-              <Phone /> Book a Free Call
+              <Link to="/contact" className="flex gap-3 px-6 py-3 rounded-md bg-gray-700 text-white hover:bg-blue-500 transition duration-300 cursor-pointer">
+                <Phone /> Book a Free Call
+              </Link>
             </button>
             <button className="px-6 py-3 cursor-pointer rounded-md font-bold hover:bg-blue-300 hover:font-medium transition duration-300">
-              📋 See Services
+              <Link to="/services" className="flex gap-3 px-6 py-3 rounded-md text-black hover:bg-blue-300 transition duration-300 cursor-pointer">
+                📋 See Services
+              </Link>
             </button>
           </div>
         </div>

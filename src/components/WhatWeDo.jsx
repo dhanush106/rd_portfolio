@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaFacebookF, FaInstagram, FaGoogle } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 const WhatWeDo = () => {
   return (
     <section className="bg-white py-20 px-6 text-center">
@@ -54,7 +54,9 @@ const WhatWeDo = () => {
         className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition"
         whileHover={{ scale: 1.05 }}
       >
+        <Link to='/services'>
         Explore Services →
+        </Link>
       </motion.a>
     </section>
   );

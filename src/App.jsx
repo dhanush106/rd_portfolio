@@ -6,6 +6,7 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Pricing from './pages/Pricing';
 import Contact from './pages/Contact';
+import Footer from './components/Footer';
 const App = () => {
   const location = useLocation();
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </div>
   )
 }

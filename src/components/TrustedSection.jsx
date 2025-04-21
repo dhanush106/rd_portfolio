@@ -40,8 +40,37 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/women/50.jpg",
     rating: 5,
   },
+  {
+    quote: "I was surprised by how quickly we started seeing results. The team handled our Facebook and Instagram ads perfectly, and our engagement went up dramatically.",
+    name: "— Priya Sharma, Fashion Brand Owner",
+    image: "https://randomuser.me/api/portraits/women/60.jpg",
+    rating: 5,
+  },
+  {
+    quote: "Amazing experience! They managed everything from ad creatives to targeting. I received 30+ solid leads in just a few weeks.",
+    name: "— John M., Real Estate Agent",
+    image: "https://randomuser.me/api/portraits/men/50.jpg",
+    rating: 5,
+  },
+  {
+    quote: "Their approach to local ad targeting was spot on. My small bakery got more walk-ins than ever before. Loved the communication and weekly updates.",
+    name: "— Sneha K., Small Business Owner",
+    image: "https://randomuser.me/api/portraits/women/68.jpg",
+    rating: 5,
+  },
+  {
+    quote: "Google Ads were always a mystery to me, but these guys made it work like magic. Highly recommend for service-based businesses.",
+    name: "— Ali Rehman, Home Cleaning Services",
+    image: "https://randomuser.me/api/portraits/men/70.jpg",
+    rating: 5,
+  },
+  {
+    quote: "I tried other agencies before but didn’t get value for money. This one not only promised leads but actually delivered them. Worth every dollar.",
+    name: "— Rachel T., Online Coaching Business",
+    image: "https://randomuser.me/api/portraits/women/42.jpg",
+    rating: 5,
+  },
 ];
-
 const logos = [
   logo1,
   logo2,
