@@ -55,8 +55,8 @@ const Footer = () => {
         {/* Column 4 */}
         <div>
           <h4 className="text-lg font-semibold mb-4 text-blue-400">Contact</h4>
-          <p className="text-gray-400">support@rddigitalmarketing.com</p>
-          <p className="text-gray-400">+91 98765 43210</p>
+          <p className="text-gray-400">infoatrajeswardigitals@gmail.com </p>
+          <p className="text-gray-400">+91 8886308459</p>
         </div>
       </div>
 

@@ -90,50 +90,12 @@ const ServicesPage = () => {
                   </li>
                 ))}
               </ul>
-
-              {/* Explore Button */}
-              <div className="mt-6">
-                <a
-                  href="/services"
-                  className="bg-blue-600 text-white rounded-full py-2 px-8 text-sm font-semibold hover:bg-blue-700 transition duration-300"
-                >
-                  Explore Services →
-                </a>
-              </div>
             </motion.div>
           ))}
         </div>
 
         {/* Add-On Services */}
-        <motion.div
-          className="mt-16 p-8 bg-gray-200 rounded-lg shadow-md hover:shadow-xl transform transition-all duration-500"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          <h3 className="text-2xl font-semibold text-blue-600">Add-On Services (Optional):</h3>
-          <ul className="mt-4 space-y-2 text-sm">
-            <li>Landing Page Optimization</li>
-            <li>Retargeting Strategy</li>
-            <li>Custom Audience Building</li>
-            <li>Creative Asset Design (if needed)</li>
-          </ul>
-        </motion.div>
-
-        {/* CTA */}
-        <motion.div
-          className="mt-16 text-center"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1 }}
-        >
-          <p className="text-xl font-semibold text-gray-800">
-            Need a custom campaign? Let’s build it.
-          </p>
-          <button className="mt-6 px-8 py-4 bg-blue-600 text-white rounded-full text-lg shadow-md hover:bg-blue-700 transform transition-all duration-300">
-            Book Your Free Discovery Call
-          </button>
-        </motion.div>
+        
       </div>
     </motion.div>
   );

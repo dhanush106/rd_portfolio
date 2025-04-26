@@ -17,7 +17,7 @@ const About = () => {
         </h1>
 
         <p className="text-gray-700 text-lg leading-relaxed mb-6">
-          At <strong>[Your Agency Name]</strong>, we specialize in helping businesses unlock the full potential of digital advertising. With a laser focus on Facebook, Instagram, and Google ads, we craft highly targeted campaigns that connect your brand with the right people, in the right places, at exactly the right time.
+          At <strong>Rajeswar Digitals</strong>, we specialize in helping businesses unlock the full potential of digital advertising. With a laser focus on Facebook, Instagram, and Google ads, we craft highly targeted campaigns that connect your brand with the right people, in the right places, at exactly the right time.
         </p>
 
         <div className="bg-indigo-50 border-l-4 border-indigo-500 text-left px-6 py-4 mb-6 rounded-md shadow-sm">

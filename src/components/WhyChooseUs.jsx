@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { FaBullseye, FaComments, FaBrain, FaFire } from 'react-icons/fa';
-
+import {Link} from 'react-router-dom'
 const WhyChooseUs = () => {
   return (
     <section className="bg-gray-50 py-20 px-6 text-center">
@@ -85,7 +85,9 @@ const WhyChooseUs = () => {
         className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-full font-semibold shadow-lg hover:bg-indigo-700 transition"
         whileHover={{ scale: 1.05 }}
       >
-        Let’s Get Started →
+        <Link to='/pricing'>
+          Let’s Get Started →
+        </Link>
       </motion.a>
     </section>
   );

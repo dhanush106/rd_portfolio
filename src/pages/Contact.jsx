@@ -81,13 +81,8 @@ export default function ContactUs() {
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
       >
-        <p>📧 Email: hello@youragency.com</p>
-        <p>📞 Phone: +1234567890</p>
-        <div className="flex justify-center space-x-4 mt-2">
-          <a href="#" className="text-blue-600 hover:text-blue-800">🌐 Facebook</a>
-          <a href="#" className="text-blue-600 hover:text-blue-800">🌐 Instagram</a>
-          <a href="#" className="text-blue-600 hover:text-blue-800">🌐 LinkedIn</a>
-        </div>
+        <p>📧 Email: infoatrajeswardigitals@gmail.com </p>
+        <p>📞 Phone: +91 888-630-8459</p>
       </motion.div>
     </div>
   );
